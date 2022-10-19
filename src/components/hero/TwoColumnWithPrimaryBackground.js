@@ -32,7 +32,7 @@ const Image = tw.img`w-144 ml-auto`
 
 export default ({
   heading = "Warm SaaS Leads On Demand ",
-  description = "Our team of SaaS sales veterans generates warm, qualified leads so you can focus on closing. Warma's Business Development Professionals will search for & qualify prospects and you will only be billed per successful sales call. We are confident in quality control & back each booking with a money back guarantee.",
+  description = "Our team of SaaS sales veterans generates warm, qualified leads so you can focus on closing.",
   primaryButtonText = "Book a Call",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,
