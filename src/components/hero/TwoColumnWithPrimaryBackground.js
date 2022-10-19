@@ -31,24 +31,24 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 
 const Image = tw.img`w-144 ml-auto`
 
 export default ({
-  heading = "High Performant Servers tailored to your needs",
-  description = "Our cloud provisions the best servers, with fast SSD, powerful Xeon Processors, whenever you need it. Oh, and we have 99.9% SLA",
-  primaryButtonText = "Start Your 15 Day Free Trial",
+  heading = "Warm SaaS Leads On Demand ",
+  description = "Our team of SaaS sales veterans generates warm, qualified leads so you can focus on closing. Warma's Business Development Professionals will search for & qualify prospects and you will only be billed per successful sales call. We are confident in quality control & back each booking with a money back guarantee.",
+  primaryButtonText = "Book a Call",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,
 }) => {
   const logoLink = (
     <LogoLink href="/">
       <img src={logoImageSrc} alt="Logo" />
-      Treact
+      Tonic
     </LogoLink>
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
-      <NavLink href="#">Login</NavLink>
-      <PrimaryLink href="#">Signup</PrimaryLink>
+      <NavLink href="#">About</NavLink>
+      <NavLink href="#">Services</NavLink>
+      <NavLink href="#">Blog</NavLink>
+      <PrimaryLink href="#">Contact</PrimaryLink>
     </NavLinks>
   ];
   return (

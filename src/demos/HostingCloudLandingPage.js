@@ -16,21 +16,21 @@ export default () => {
     <AnimationRevealPage>
       <Hero />
       <Features />
-      <Pricing />
+      {/* <Pricing /> */}
       <MainFeature 
-        subheading="Reliable"
-        heading="Highly Redundant Servers With Backup"
+        subheading="Pipeline"
+        heading="Fill Pipeline With Sales Qualifed Leads"
         imageSrc={serverRedundancyIllustrationImageSrc}
         buttonRounded={false}
       />
       <MainFeature 
-        subheading="Secure"
-        heading="State of the Art Computer Security"
+        subheading="Hit quota"
+        heading="Exceed Quota Doing What Others Aren't"
         imageSrc={serverSecureIllustrationImageSrc}
         buttonRounded={false}
         textOnLeft={false}
       />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <FAQ />
       <Footer />
     </AnimationRevealPage>

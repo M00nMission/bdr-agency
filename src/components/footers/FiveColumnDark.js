@@ -48,12 +48,12 @@ export default () => {
           <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Treact Inc.</LogoText>
+              <LogoText>Tonic</LogoText>
             </LogoContainer>
             <CompanyAddress>
-              123 Road, New Startup Building
-              Carter Road, San Francisco
-              California 40234
+              Suite 1600, 525 N Tryon St
+              Charlotte, NC
+              28202
             </CompanyAddress>
             <SocialLinksContainer>
               <SocialLink href="https://facebook.com">
@@ -84,7 +84,7 @@ export default () => {
               </LinkListItem>
             </LinkList>
           </Column>
-          <Column>
+          {/* <Column>
             <ColumnHeading>Product</ColumnHeading>
             <LinkList>
               <LinkListItem>
@@ -100,7 +100,7 @@ export default () => {
                 <Link href="#">Team</Link>
               </LinkListItem>
             </LinkList>
-          </Column>
+          </Column> */}
           <Column>
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
@@ -138,8 +138,8 @@ export default () => {
         </FiveColumns>
         <Divider/>
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>&copy; Copyright 2020, Treact Inc.</CopyrightNotice>
-          <CompanyInfo>An Internet Company.</CompanyInfo>
+          <CopyrightNotice>&copy; Copyright 2020, Tonic</CopyrightNotice>
+          {/* <CompanyInfo>An Internet Company.</CompanyInfo> */}
         </CopyrightAndCompanyInfoRow>
       </Content>
     </Container>

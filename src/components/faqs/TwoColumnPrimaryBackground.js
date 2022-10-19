@@ -30,37 +30,37 @@ const Answer = tw(motion.div)`hidden text-sm font-normal mt-4 text-gray-300`;
 export default ({
   subheading = "",
   heading = "Frequently Asked Questions",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "Are we a good fit?",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "What makes you qualified?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "We've generated more than $50,000 in gross revenue for an SEO, AI tech startup called CrowdedMinds."
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "What if the lead doesn't convert?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "We're performance based. We don't make money unless you do. "
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "What's your lead generation process?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "We buy white-label domains in bulk mimicking the name of your company. We warm-up and send cold email campaigns in bulk using a sniper-based approach for your ICP. Any lead that asks us if we work for your company is told we do on a 1099 basis. Leads get forwarded your Calendly, Google Meet, or whatever booking system you use."
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "When can we expect to get leads?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Week 4 to Week 8, depending on your average sales cycle and industry. Account for 2 weeks for cold email warmup's and general research."
     },
     {
-      question: "What kind of SLA Guarantee do you provide ? ",
+      question: "Do you need anything to get started?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Give us some leads that closed, and we'll have a better idea of who your ICP is."
     },
     {
-      question: "Where are the servers located ?",
+      question: "Who are you?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "We're a team of cofounders that have experience building and marketing fullstack apps. We know the stress startup tech companies face.",
     }
   ]
 }) => {
