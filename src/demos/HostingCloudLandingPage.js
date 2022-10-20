@@ -15,7 +15,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero />
-      <Features />
+      {/* <Features /> */}
       {/* <Pricing /> */}
       <MainFeature 
         subheading="Pipeline"

@@ -31,8 +31,8 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 
 const Image = tw.img`w-144 ml-auto`
 
 export default ({
-  heading = "Warm SaaS Leads On Demand ",
-  description = "Our team of SaaS sales veterans generates warm, qualified leads so you can focus on closing.",
+  heading = "Warm SaaS Leads",
+  description = "We generate warm, qualified leads so you can focus on closing.",
   primaryButtonText = "Book a Call",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,

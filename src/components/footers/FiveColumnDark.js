@@ -101,7 +101,7 @@ export default () => {
               </LinkListItem>
             </LinkList>
           </Column> */}
-          <Column>
+          {/* <Column>
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
               <LinkListItem>
@@ -117,7 +117,7 @@ export default () => {
                 <Link href="#">Disclaimer</Link>
               </LinkListItem>
             </LinkList>
-          </Column>
+          </Column> */}
           <Column>
             <ColumnHeading>Contact</ColumnHeading>
             <LinkList>
