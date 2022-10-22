@@ -13,6 +13,9 @@ import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import logoImageSrc from "images/logo-light.svg";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
+import undrawPhoneCall from "images/undraw_phone_call.svg";
+import undrawBusinessPlan from "images/undraw_business_plan.svg";
+
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
@@ -36,6 +39,7 @@ export default ({
   primaryButtonText = "Book a Call",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,
+
 }) => {
   const logoLink = (
     <LogoLink href="/">

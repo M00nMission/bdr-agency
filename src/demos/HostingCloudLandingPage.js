@@ -9,7 +9,13 @@ import FAQ from "components/faqs/TwoColumnPrimaryBackground.js";
 import Footer from "components/footers/FiveColumnDark.js";
 import serverRedundancyIllustrationImageSrc from "images/server-redundancy-illustration.svg"
 import serverSecureIllustrationImageSrc from "images/server-secure-illustration.svg"
-
+import undrawPhoneCall from "images/undraw_phone_call.svg";
+import undrawBooking from "images/undraw_booking.svg";
+import undrawRevenue from "images/undraw_revenue.svg";
+import undrawRemoteMeeting from "images/undraw_remote_meeting.svg";
+import undrawMailSent from "images/undraw_mail_sent.svg";
+import undrawPitch from "images/undraw_pitching.svg";
+import undrawBusinessDeal from "images/undraw_business_deal.svg";
 
 export default () => {
   return (
@@ -20,13 +26,13 @@ export default () => {
       <MainFeature 
         subheading="Pipeline"
         heading="Fill Pipeline With Sales Qualifed Leads"
-        imageSrc={serverRedundancyIllustrationImageSrc}
+        imageSrc={undrawPitch}
         buttonRounded={false}
       />
       <MainFeature 
         subheading="Hit quota"
         heading="Exceed Quota Doing What Others Aren't"
-        imageSrc={serverSecureIllustrationImageSrc}
+        imageSrc={undrawPhoneCall}
         buttonRounded={false}
         textOnLeft={false}
       />
