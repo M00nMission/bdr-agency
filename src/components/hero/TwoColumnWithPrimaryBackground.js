@@ -11,7 +11,8 @@ import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } fr
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import logoImageSrc from "images/logo-light.svg";
+// import logoImageSrc from "images/logo-light.svg";
+import logoImageSrc from "images/logo.svg";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
 import undrawPhoneCall from "images/undraw_phone_call.svg";
 import undrawBusinessPlan from "images/undraw_business_plan.svg";
@@ -44,14 +45,14 @@ export default ({
   const logoLink = (
     <LogoLink href="/">
       <img src={logoImageSrc} alt="Logo" />
-      Tonic
+  
     </LogoLink>
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">About</NavLink>
-      <NavLink href="#">Services</NavLink>
-      <NavLink href="#">Blog</NavLink>
+      <NavLink href="#About">About</NavLink>
+      {/* <NavLink href="#">Services</NavLink>
+      <NavLink href="#">Blog</NavLink> */}
       <PrimaryLink href="#">Contact</PrimaryLink>
     </NavLinks>
   ];

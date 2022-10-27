@@ -7,6 +7,7 @@ import LogoImage from "images/logo-light.svg";
 import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
+import { ReactComponent as LinkedInIcon } from "images/linkedin-icon.svg";
 
 const Container = tw.div`relative bg-gray-900 text-gray-100 -mx-8 -mb-8 px-8`;
 const Content = tw.div`max-w-screen-xl mx-auto pt-16 pb-8`
@@ -50,37 +51,37 @@ export default () => {
               <LogoImg src={LogoImage} />
               <LogoText>Tonic</LogoText>
             </LogoContainer>
-            <CompanyAddress>
+            {/* <CompanyAddress>
               Suite 1600, 525 N Tryon St
               Charlotte, NC
               28202
-            </CompanyAddress>
+            </CompanyAddress> */}
             <SocialLinksContainer>
-              <SocialLink href="https://facebook.com">
-                <FacebookIcon />
+              <SocialLink href="https://www.exceeed.co/demo--23136">
+                <LinkedInIcon />
               </SocialLink>
-              <SocialLink href="https://twitter.com">
+              {/* <SocialLink href="https://twitter.com">
                 <TwitterIcon />
               </SocialLink>
               <SocialLink href="https://youtube.com">
                 <YoutubeIcon />
-              </SocialLink>
+              </SocialLink> */}
             </SocialLinksContainer>
           </CompanyColumn>
           <Column>
             <ColumnHeading>Quick Links</ColumnHeading>
             <LinkList>
-              <LinkListItem>
+              {/* <LinkListItem>
                 <Link href="#">Blog</Link>
+              </LinkListItem> */}
+              <LinkListItem>
+                <Link href="#FAQ">FAQs</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">FAQs</Link>
+                <Link href="mailto:justin@exceeed.site">Support</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Support</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">About Us</Link>
+                <Link href="#About">About Us</Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -121,24 +122,24 @@ export default () => {
           <Column>
             <ColumnHeading>Contact</ColumnHeading>
             <LinkList>
-              <LinkListItem>
+              {/* <LinkListItem>
                 +1 (234) (567)-8901
-              </LinkListItem>
+              </LinkListItem> */}
               <LinkListItem>
-                <Link href="mailto:support@servana.com">support@servana.com</Link>
+                <Link href="mailto:justin@exceeed.site">justin@exceeed.site</Link>
               </LinkListItem>
-              <LinkListItem>
+              {/* <LinkListItem>
                 <Link href="#">Sales</Link>
-              </LinkListItem>
-              <LinkListItem>
+              </LinkListItem> */}
+              {/* <LinkListItem>
                 <Link href="#">Report Abuse</Link>
-              </LinkListItem>
+              </LinkListItem> */}
             </LinkList>
           </Column>
         </FiveColumns>
         <Divider/>
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>&copy; Copyright 2020, Tonic</CopyrightNotice>
+          <CopyrightNotice>&copy; Copyright 2022, Tonic</CopyrightNotice>
           {/* <CompanyInfo>An Internet Company.</CompanyInfo> */}
         </CopyrightAndCompanyInfoRow>
       </Content>

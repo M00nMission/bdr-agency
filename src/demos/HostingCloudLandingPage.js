@@ -3,6 +3,7 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithPrimaryBackground.js";
 import Features from "components/features/ThreeColWithSideImageWithPrimaryBackground.js";
 import MainFeature from "components/features/TwoColWithButton.js";
+import MainFeature2 from "components/features/TwoColWithButton2.js";
 import Pricing from "components/pricing/ThreePlansWithHalfPrimaryBackground.js";
 import Testimonial from "components/testimonials/SimplePrimaryBackground.js";
 import FAQ from "components/faqs/TwoColumnPrimaryBackground.js";
@@ -24,20 +25,20 @@ export default () => {
       {/* <Features /> */}
       {/* <Pricing /> */}
       <MainFeature 
-        subheading="Pipeline"
+        subheading="Direct to your CRM"
         heading="Fill Pipeline With Sales Qualifed Leads"
         imageSrc={undrawPitch}
         buttonRounded={false}
       />
-      <MainFeature 
-        subheading="Hit quota"
-        heading="Exceed Quota Doing What Others Aren't"
+      <MainFeature2 
+        subheading="Exceed OTE"
+        heading="Exceed quota Doing What Others Aren't"
         imageSrc={undrawPhoneCall}
         buttonRounded={false}
         textOnLeft={false}
       />
       {/* <Testimonial /> */}
-      <FAQ />
+      <FAQ id="FAQ" />
       <Footer />
     </AnimationRevealPage>
   );

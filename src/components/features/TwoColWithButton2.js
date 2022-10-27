@@ -47,7 +47,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Our team of SDR's drive leads direct to your CRM. Just give us your ICP and some previous clients you signed, and we'll do all the work scouting out similar prospects.",
+  description = "Zero risk. Just upside. We drive you interested prospects for a flat fee. The more money you make, the more money we make. ",
   primaryButtonText = "Book a Call",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
