@@ -34,6 +34,8 @@ const Description = tw(SectionDescription)`mt-4 max-w-2xl text-gray-100 lg:text-
 const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 sm:px-10 sm:py-5 bg-primary-400 inline-block hocus:bg-primary-500`;
 const Image = tw.img`w-144 ml-auto`
 
+
+
 export default ({
   heading = "Warm SaaS Leads",
   description = "Warm, qualified leads direct to your CRM.",
@@ -42,6 +44,11 @@ export default ({
   imageSrc = serverIllustrationImageSrc,
 
 }) => {
+
+  const prompt = () => {
+    window.alert(`Coming soon`)
+  }
+
   const logoLink = (
     <LogoLink href="/">
       <img src={logoImageSrc} alt="Logo" />
@@ -50,7 +57,7 @@ export default ({
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#About">About</NavLink>
+      <NavLink onClick={prompt}>About</NavLink>
       {/* <NavLink href="#">Services</NavLink>
       <NavLink href="#">Blog</NavLink> */}
       <PrimaryLink href="mailto:will@leadtaxi.co">Contact</PrimaryLink>

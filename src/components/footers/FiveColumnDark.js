@@ -42,6 +42,11 @@ const CompanyInfo = tw.div``
 
 const Divider = tw.div`my-8 border-b-2 border-gray-800`
 export default () => {
+
+  const handleAlert = () => {
+    window.alert(`Coming soon`)
+  }
+  
   return (
     <Container>
       <Content>
@@ -75,13 +80,13 @@ export default () => {
                 <Link href="#">Blog</Link>
               </LinkListItem> */}
               <LinkListItem>
-                <Link href="#FAQ">FAQs</Link>
+                <Link onClick={handleAlert} href="#FAQ">FAQs</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="mailto:will@leadtaxi.co">Support</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#About">About Us</Link>
+                <Link onClick={handleAlert} href="#About">About Us</Link>
               </LinkListItem>
             </LinkList>
           </Column>
