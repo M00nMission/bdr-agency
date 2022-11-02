@@ -38,7 +38,7 @@ export default ({
   heading = "Warm SaaS Leads",
   description = "Warm, qualified leads direct to your CRM.",
   primaryButtonText = "Book a Call",
-  primaryButtonUrl = "",
+  primaryButtonUrl = "https://calendly.com/leadtaxi",
   imageSrc = serverIllustrationImageSrc,
 
 }) => {
@@ -53,7 +53,7 @@ export default ({
       <NavLink href="#About">About</NavLink>
       {/* <NavLink href="#">Services</NavLink>
       <NavLink href="#">Blog</NavLink> */}
-      <PrimaryLink href="#">Contact</PrimaryLink>
+      <PrimaryLink href="mailto:will@leadtaxi.co">Contact</PrimaryLink>
     </NavLinks>
   ];
   return (
