@@ -49,7 +49,7 @@ export default () => {
           <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Tonic</LogoText>
+              <LogoText>LeadTaxi</LogoText>
             </LogoContainer>
             {/* <CompanyAddress>
               Suite 1600, 525 N Tryon St
@@ -78,7 +78,7 @@ export default () => {
                 <Link href="#FAQ">FAQs</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="mailto:justin@exceeed.site">Support</Link>
+                <Link href="mailto:will@leadtaxi.co">Support</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="#About">About Us</Link>
@@ -126,7 +126,7 @@ export default () => {
                 +1 (234) (567)-8901
               </LinkListItem> */}
               <LinkListItem>
-                <Link href="mailto:justin@exceeed.site">justin@exceeed.site</Link>
+                <Link href="mailto:will@leadtaxi.co">will@leadtaxi.co</Link>
               </LinkListItem>
               {/* <LinkListItem>
                 <Link href="#">Sales</Link>
@@ -139,7 +139,7 @@ export default () => {
         </FiveColumns>
         <Divider/>
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>&copy; Copyright 2022, Tonic</CopyrightNotice>
+          <CopyrightNotice>&copy; Copyright 2022, LeadTaxi</CopyrightNotice>
           {/* <CompanyInfo>An Internet Company.</CompanyInfo> */}
         </CopyrightAndCompanyInfoRow>
       </Content>

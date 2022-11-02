@@ -13,7 +13,7 @@ import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 // import logoImageSrc from "images/logo-light.svg";
 import logoImageSrc from "images/logo.svg";
-import serverIllustrationImageSrc from "images/server-illustration-2.svg";
+import serverIllustrationImageSrc from "images/undraw_feeling_proud_yellow.svg";
 import undrawPhoneCall from "images/undraw_phone_call.svg";
 import undrawBusinessPlan from "images/undraw_business_plan.svg";
 
