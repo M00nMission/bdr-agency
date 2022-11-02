@@ -36,7 +36,7 @@ const Image = tw.img`w-144 ml-auto`
 
 export default ({
   heading = "Warm SaaS Leads",
-  description = "We generate warm, qualified leads so you can focus on closing.",
+  description = "Warm, qualified leads direct to your CRM.",
   primaryButtonText = "Book a Call",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,
