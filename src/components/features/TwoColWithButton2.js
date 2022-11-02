@@ -49,7 +49,7 @@ export default ({
   ),
   description = "Zero risk. Just upside. We drive you interested prospects for a flat fee. The more money you make, the more money we make. ",
   primaryButtonText = "Book a Call",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,

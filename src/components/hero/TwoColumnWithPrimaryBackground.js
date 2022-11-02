@@ -38,7 +38,7 @@ export default ({
   heading = "Warm SaaS Leads",
   description = "Warm, qualified leads direct to your CRM.",
   primaryButtonText = "Book a Call",
-  primaryButtonUrl = "#",
+  primaryButtonUrl = "",
   imageSrc = serverIllustrationImageSrc,
 
 }) => {

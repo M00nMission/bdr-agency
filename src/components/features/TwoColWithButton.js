@@ -49,7 +49,7 @@ export default ({
   ),
   description = "Our team of SDR's drive leads direct to your CRM. Just give us your ICP and some previous clients you signed, and we'll do all the work scouting out similar prospects.",
   primaryButtonText = "Book a Call",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
