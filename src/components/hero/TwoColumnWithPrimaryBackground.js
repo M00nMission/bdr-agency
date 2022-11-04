@@ -40,7 +40,7 @@ export default ({
   heading = "Warm SaaS Leads",
   description = "Warm, qualified leads direct to your CRM.",
   primaryButtonText = "Book a Call",
-  primaryButtonUrl = "https://calendly.com/leadtaxi",
+  primaryButtonUrl = "https://calendly.com/leadtaxi/30min?back=1&month=2022-11",
   imageSrc = serverIllustrationImageSrc,
 
 }) => {
@@ -73,7 +73,7 @@ export default ({
               <TextColumn>
                 <Heading>{heading}</Heading>
                 <Description>{description}</Description>
-                <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
+                <PrimaryButton as="a" target="_blank"  href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
               </TextColumn>
               <IllustrationColumn>
                 <Image src={imageSrc} />

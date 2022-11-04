@@ -49,7 +49,7 @@ export default ({
   ),
   description = "Zero risk. Just upside. We drive you interested prospects for a flat fee. The more money you make, the more money we make. ",
   primaryButtonText = "Book a Call",
-  primaryButtonUrl = "https://calendly.com/leadtaxi",
+  primaryButtonUrl = "https://calendly.com/leadtaxi/30min?back=1&month=2022-11",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -74,7 +74,7 @@ export default ({
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
+            <PrimaryButton buttonRounded={buttonRounded} as="a" target="_blank" href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>
